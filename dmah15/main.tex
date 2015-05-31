@@ -1,0 +1,99 @@
+% IEEE Paper Template for US-LETTER Page Size (V1)
+% Sample Conference Paper using IEEE LaTeX style file for US-LETTER pagesize.
+% Copyright (C) 2006-2008 Causal Productions Pty Ltd.
+% Permission is granted to distribute and revise this file provided that
+% this header remains intact.
+%
+% REVISION HISTORY
+% 20080211 changed some space characters in the title-author block
+%
+% \documentclass[10pt,conference,letterpaper]{IEEEtran}
+% \usepackage{times,amsmath,epsfig}
+% \usepackage[utf8]{inputenc}
+% \usepackage[usenames,dvipsnames]{color}
+% \usepackage{amssymb}
+
+\documentclass[a4paper,english]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{float}
+\usepackage{slashed}
+\usepackage{graphicx}
+\usepackage{fixltx2e}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{seqsplit} % for splitting very long variable names
+\makeatletter
+\raggedbottom % remove unwanted space between paragraphs 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\pdfpageheight\paperheight
+\pdfpagewidth\paperwidth
+
+\floatstyle{ruled}
+\newfloat{algorithm}{tbp}{loa}
+\providecommand{\algorithmname}{Algorithm}
+\floatname{algorithm}{\protect\algorithmname}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage[noend]{algorithm,algcompatible,algpseudocode}
+\usepackage{amssymb} % for symbols 
+\usepackage{caption} % algorthm is a float and does not split. use caption instead
+\usepackage{subcaption}
+\usepackage{etoolbox}\AtBeginEnvironment{algorithmic}{\footnotesize}
+%\algsetup{linenosize=\small}
+\usepackage{subfig}
+\makeatother
+\algblockdefx[NAME]{StartTransaction}{EndTransaction}
+[1]{\textbf{begin transaction} \textbf{#1}}{\textbf{commit transaction}}
+\algrenewcommand\alglinenumber[1]{\footnotesize #1:}
+
+\usepackage{babel}
+\usepackage{cite}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{53}}%
+
+\title{BiobankCloud}
+
+\author{Jim Dowling \inst{1,2}}
+
+\institute{KTH - Royal Institute of Technology,\\
+\email{\{jdowling\}@kth.se}
+\and
+SICS - Swedish ICT \\
+\email{\{jdowling\}@sics.se}
+}
+
+\newif\ifshowcomments
+\showcommentstrue
+
+\ifshowcomments
+\newcommand{\mynote}[2]{\fbox{\bfseries\sffamily\scriptsize{#1}}
+{\small$\blacktriangleright$\textsf{\emph{#2}}$\blacktriangleleft$}}
+\else
+\newcommand{\mynote}[2]{}
+\fi
+\newcommand{\jim}[1]{\textcolor{Red}{\mynote{Jim}{#1}}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+
+\input{introduction}
+
+\input{relatedWork}
+
+\section{Conclusions}
+We have shown that a reliable leader election service can be implemented using two phase commit transactions in the NDB storage engine, a NewSQL database. Our solution ensures that there is never more than one leader, and the time taken for leader election is comparable to ZooKeeper for clusters of up to 800 processes. Our algorithm enables distributed systems that already use NewSQL databases to save the operational overhead of deploying a third-party service, such as ZooKeeper, for leader election, as our algorithm can easily be re-implemented for other NewSQL databases. 
+\section{Acknowledgements}
+This work funded by the EU FP7 project ``Scalable, Secure Storage and Analysis of Biobank Data'' under Grant Agreement no. 317871. 
+\bibliographystyle{ieeetr}
+\bibliography{bbc}
+
+\end{document}
