@@ -1,0 +1,5 @@
+\section{Hadoop Open Platform-as-a-Service (Hops)}
+
+% Jim - 1-3 pages
+We have moved metadata from the heap of a Java Virtual Machine to an in-memory, no-shared-state, distributed database, called MySQL Cluster~\cite{ronstrom2005recovery}. We ensure the consistency of the filesystem metadata by implementing serialized transactions on well-ordered operations on metadata~\cite{hops_consistency}.
+We do not need Zookeeper, as we have developed a leader-election service based on the database~\cite{hopselection}.
