@@ -63,9 +63,6 @@
 \institute{KTH - Royal Institute of Technology,\\
 \email{\{jdowling, gholami, maism, smkniazi\}@kth.se}
 \and
-% SICS - Swedish ICT \\
-% \email{\{jdowling\}@sics.se}
-% \and
 Humboldt University\\
 \email{\{leser, bux, joergen.brandt\}@informatik.hu-berlin.de}
 \and
@@ -94,8 +91,7 @@ University of Lisbon\\
 \maketitle
 
 \begin{abstract}
-Biobanks store and catalogue human biological material that is increasingly becoming digitized using technologies such as whole genome sequencing. There is, however, a growing Biobank bottleneck: a lack of open-source software systems that can securely scale to handle the coming wave of data from Next-Generation Sequencing (NGS) machines. In the BiobankCloud project, we are building an open-source Hadoop-based platform for the secure storage, sharing, and processing of genomic data. We have extended Hadoop to support multi-tenancy for studies, reduced data sizes with erasure coding, support for extensible and consistent metadata, a scalable scientific workflow framework, and support for securely sharing data across Hadoop instances. We demonstrate the capabilities of BiobankCloud in a Laboratory Information Managmenent System with support for 2-factor authentication and UI-support to all major services.
-
+Biobanks store and catalogue human biological material that is increasingly becoming digitized using technologies such as whole genome sequencing. There is, however, a growing Biobank bottleneck: a lack of open-source software systems that can securely scale to handle the coming wave of genomic data from Next-Generation Sequencing machines. In the BiobankCloud project, we are building an open-source Hadoop-based platform for the secure storage, sharing, and processing of genomic data. We have extended Hadoop to include support for multi-tenancy (studies), reduced data sizes with erasure coding, support for extensible and consistent metadata, a scalable scientific workflow framework, and support for securely sharing data across Hadoop instances. We demonstrate the capabilities of BiobankCloud in a Laboratory Information Managmenent System with support for 2-factor authentication and UI-support to all major services.
 \end{abstract}
 
 
@@ -103,8 +99,7 @@ Biobanks store and catalogue human biological material that is increasingly beco
 \input{relatedWork}
 \input{regulation}
 \input{lims}
-\input{authentication}
-\input{authorization}
+\input{security}
 \input{hops}
 \input{sassfee}
 \input{charonfs}
