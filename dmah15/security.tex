@@ -1,7 +1,6 @@
 \section{Security Model}
 
-The BioBankCloud environment deploys strong security features for concerns such as Confidentiality, Integrity and Non-repudiation ~\cite{BBCSEC} of data access. This includes authentication, authorization
-, and auditing. The system allows defining different roles with different access privileges. In designing the system, we applied the Cloud Privacy Threat Modeling~\cite {CPTM} approach to identify the privacy requirements of processing sensitive biomedical data.
+The BioBankCloud environment deploys strong security features for concerns such as confidentiality, integrity and non-repudiation ~\cite{BBCSEC} of data access. This includes authentication, authorization, and auditing. The system allows defining different roles with different access privileges. In designing the system, we applied the Cloud Privacy Threat Modeling~\cite {CPTM} approach to identify the privacy requirements of processing sensitive biomedical data.
 
 
 Figure \ref{fig:security} shows the different components of the employed security mechanisms. All BioBankCloud services are protected behind the firewall and only accessible through the secure interfaces over HTTPS channels.
@@ -26,7 +25,7 @@ The mobile user supplies an one-time generated password by the Google Authentica
 The Yubikey enters the Yubikey device into a USB port. The user enters the simple password that was decied during the account registration and pushes the Yubikey button. The Yubikey login page authenticates the user to the platform via the YOTP module.
 
 \subsection {Access Control}
-The accessc control component ensures authorized access to genomics data as internal objects or different services within the platform. This is accomplished through a role-based access control (RBAC) model and authorization of data access on the HDFS, for example, a data owner adds/revokes members to a study and assigns privileges to access the study.
+The access control component ensures authorized access to genomics data as internal objects or different services within the platform. This is accomplished through a role-based access control (RBAC) model and authorization of data access on the HDFS, for example, a data owner adds/revokes members to a study and assigns privileges to access the study.
 
 \subsubsection {Role-Based Access Control}
 
