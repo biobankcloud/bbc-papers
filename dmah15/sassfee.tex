@@ -1,3 +1,15 @@
-\section{Sassfee}
+\section{SAASFEE}
 
-% 1 page: Ulf et al
+%one page, should include an evaluation (see Introduction)
+%one paragraph on saasfee (possibly w/ img)
+%one paragraph on hiway
+%one paragraph on cuneiform
+%one paragraph on evaluation (w/ image)
+
+To process the vast amounts of genomic data stored in today's Biobanks, researchers have a diverse ecosystem of tools at their disposal~\cite{Pabinger2014}. Depending on the research question at hand, these tools are often used in conjunction with one another, resulting in complex and intertwined analysis pipelines. Scientific workflow management systems (SWfMSs) facilitate the design, refinement, execution, monitoring, sharing, and maintenance of such analysis pipelines. SAASFEE~\cite{vldb_demo} is a SWfMS that supports the scalable execution of arbitrarily complex workflows. It encompasses the functional workflow language Cuneiform as well as Hi-WAY, a higher-level scheduler for Hadoop YARN.
+
+Paragraph on Cuneiform~\cite{cuneiform} (ToDo Joergen)
+
+Hi-WAY is a higher-level scheduler for executing scientific workflows on Hadoop YARN. It provides a selection of established scheduling policies conducting task placement based on (a) the locality of a task's input data to diminish network load and (b) task runtime estimation based on past measurements to utilize resources efficiently. To enable repeatability of experiments, Hi-WAY generates exhaustive provenance traces during workflow execution, which can be shared and re-executed or archived in a database. One of the major distinctive features of SAASFEE is its strong emphasis on integration of external software. This is true for both Cuneiform, which is able to integrate foreign code and command-line tools, and Hi-WAY, which is capable of running not only Cuneiform workflows, but also workflows designed in the SWfMSs Pegasus~\cite{pegasus_fgcs} and Galaxy~\cite{Goecks10}.
+
+Paragraph on Evaluation (ToDo Joergen)
