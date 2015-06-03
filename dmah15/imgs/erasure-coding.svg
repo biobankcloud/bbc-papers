@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="erasure-coding.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="196.203"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       style="fill:#1728a8;fill-opacity:1"
+       id="g3982"
+       transform="translate(0,0.69448531)"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="7.0815406"
+         y="276.56503"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="322.98993"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="369.41489"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="415.83981"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="462.26471"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-0"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="508.68967"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-2"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="555.11462"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-5"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="601.53949"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-8"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="647.96442"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-8"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="694.38934"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-5"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3982-9"
+       style="fill:#1728a8;fill-opacity:1"
+       transform="translate(290.8833,3.68433)"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="7.0815406"
+         y="276.56503"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-3"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="322.98993"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-20"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="369.41489"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-1"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="415.83981"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-7"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="462.26471"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-0-43"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="508.68967"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-2-1"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="555.11462"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-5-6"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="601.53949"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-8-0"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="647.96442"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-8-1"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="694.38934"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-5-6"
+         style="opacity:0.98000004;fill:#1728a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       id="g3179"
+       transform="translate(-30.809622,-3.0304445)"
+       style="fill:#d97945;fill-opacity:1"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="7.0815406"
+         y="280.28998"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-20"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="326.71484"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-4"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="373.13983"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-27"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="419.56476"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-0"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="465.98962"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-0-0"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="512.41461"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-2-0"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="558.83954"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-5-8"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="605.2644"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-8-8"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="651.68933"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-8-5"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="698.11426"
+         x="195.96959"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-5-9"
+         style="opacity:0.98000003999999996;fill:#d97945;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       transform="translate(102.02539,0.69448531)"
+       id="g3094-7"
+       style="fill:#5d5d5d;fill-opacity:1"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="7.0815406"
+         y="276.56503"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-7"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="322.98993"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-01"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="369.41489"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-23"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="415.83981"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-4"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="462.26471"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-0-4"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="508.68967"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-2-6"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="555.11462"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-5-3"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="601.53949"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-8-9"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="647.96442"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-2-2-8-8"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         ry="7.0815406"
+         y="694.38934"
+         x="114.14726"
+         height="33.335049"
+         width="34.345177"
+         id="rect2985-0-5-5"
+         style="opacity:0.98000003999999996;fill:#5d5d5d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:100px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="282.90363"
+       y="554.35699"
+       id="text3978"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4122">→</tspan></text>
+    <rect
+       style="opacity:0.98000004;fill:#b628a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-0-7-1"
+       width="34.345177"
+       height="33.335049"
+       x="456.54834"
+       y="418.5546"
+       ry="7.0815406"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#17e0a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-2-0-43-5"
+       width="34.345177"
+       height="33.335049"
+       x="456.54834"
+       y="464.97949"
+       ry="7.0815406"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#b0fd61;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-2-2-2-1-5"
+       width="34.345177"
+       height="33.335049"
+       x="456.54834"
+       y="511.40445"
+       ry="7.0815406"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:0.98000004;fill:#4e05a8;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2985-5-6-3"
+       width="34.345177"
+       height="33.335049"
+       x="456.54834"
+       y="557.82941"
+       ry="7.0815406"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="175.77367"
+       y="751.33673"
+       id="text4126"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4128"
+         x="178.00218"
+         y="751.33673"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">3 Replicas </tspan><tspan
+         sodipodi:role="line"
+         x="175.77367"
+         y="768.83673"
+         id="tspan4130"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">of every Block</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="429.86356"
+       y="756.16425"
+       id="text4126-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4128-4"
+         x="429.86356"
+         y="756.16425"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">1 Replica</tspan><tspan
+         sodipodi:role="line"
+         x="429.86356"
+         y="778.66425"
+         id="tspan4130-5"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">of every Block</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="512.69611"
+       y="617.77338"
+       id="text4126-2-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jdowling/Dropbox/hops/website/imgs/hops-ec.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         x="514.92462"
+         y="617.77338"
+         id="tspan4130-5-5"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans">4 Reed-Solomon </tspan><tspan
+         sodipodi:role="line"
+         x="514.92462"
+         y="635.27338"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4182">Coded Blocks </tspan><tspan
+         sodipodi:role="line"
+         x="514.92462"
+         y="652.77338"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4184">for every 10 </tspan><tspan
+         sodipodi:role="line"
+         x="514.92462"
+         y="670.27338"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4196">Blocks </tspan><tspan
+         sodipodi:role="line"
+         x="512.69611"
+         y="687.77338"
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;font-family:Sans;-inkscape-font-specification:Sans"
+         id="tspan4186" /></text>
+  </g>
+</svg>

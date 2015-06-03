@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg9710"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="license-work-around.svg">
+  <defs
+     id="defs9712">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path7375"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path7369"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path7357"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="448.3323"
+     inkscape:cy="634.2379"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1124"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9715">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.89300132;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9734"
+       width="138.63774"
+       height="43.683403"
+       x="46.848671"
+       y="184.01263"
+       rx="16.157228" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="75.761444"
+       y="207.87465"
+       id="text10262"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264"
+         x="75.761444"
+         y="207.87465">NameNode</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.89300132;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9734-8"
+       width="138.63774"
+       height="43.683403"
+       x="237.7675"
+       y="183.99234"
+       rx="16.157" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold;stroke-width:2.273;stroke-miterlimit:4;stroke-dasharray:none"
+       x="309.20416"
+       y="202.8036"
+       id="text10262-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-7"
+         x="311.2901"
+         y="202.8036">Data Access Layer </tspan><tspan
+         sodipodi:role="line"
+         x="309.20416"
+         y="217.8036"
+         id="tspan10290">DAL-API</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.9132719;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9734-6"
+       width="366.18741"
+       height="82.334541"
+       x="32.068794"
+       y="164.12109"
+       rx="16.157" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="171.91211"
+       y="140.64777"
+       id="text10262-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-1"
+         x="171.91211"
+         y="140.64777">Hops-FS</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2.273;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9734-85"
+       width="160.48097"
+       height="54.414959"
+       x="532.92206"
+       y="178.01997"
+       rx="16.157" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="552.45197"
+       y="201.69193"
+       id="text10262-57"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-3"
+         x="552.45197"
+         y="201.69193">NDB-DAL-API-Impl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="588.43018"
+       y="220.03291"
+       id="text10262-57-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-3-0"
+         x="588.43018"
+         y="220.03291">GPL v2</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2.273;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.273, 2.273;stroke-dashoffset:0"
+       id="rect9734-85-3"
+       width="160.48097"
+       height="54.414959"
+       x="535.95258"
+       y="270.44891"
+       rx="16.157" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="555.48248"
+       y="294.12088"
+       id="text10262-57-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-3-1"
+         x="555.48248"
+         y="294.12088">Other-DAL-API-Impl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="572.26782"
+       y="312.46188"
+       id="text10262-57-5-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-3-0-3"
+         x="572.26782"
+         y="312.46188">Other License</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:2.273;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.273, 2.273;stroke-dashoffset:0"
+       id="rect9734-85-3-2"
+       width="160.48097"
+       height="54.414959"
+       x="538.01349"
+       y="363.38297"
+       rx="16.157" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="557.5434"
+       y="387.05493"
+       id="text10262-57-8-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-3-1-3"
+         x="557.5434"
+         y="387.05493">Other-DAL-API-Impl</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="574.32874"
+       y="405.39594"
+       id="text10262-57-5-7-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-3-0-3-1"
+         x="574.32874"
+         y="405.39594">Other License</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="134.64771"
+       y="159.68773"
+       id="text10262-5-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-1-1"
+         x="134.64771"
+         y="159.68773">Apache v2 License</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.22600877;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.35605243, 7.35605243;stroke-dashoffset:0"
+       id="rect10496"
+       width="444.24115"
+       height="87.657272"
+       x="16.275442"
+       y="326.17551" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier;-inkscape-font-specification:Courier"
+       x="25.253805"
+       y="344.24527"
+       id="text10517"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="25.253805"
+         y="344.24527"
+         id="tspan10521"
+         style="font-size:12px">urlClassLoader =ClassLoader.getSystemClassLoader();</tspan><tspan
+         sodipodi:role="line"
+         x="25.253805"
+         y="359.24527"
+         style="font-size:12px"
+         id="tspan10525">method = urlClass.getDeclaredMethod(&quot;addURL&quot;, </tspan><tspan
+         sodipodi:role="line"
+         x="25.253805"
+         y="374.24527"
+         style="font-size:12px"
+         id="tspan10539">                     new Class[]{URL.class});</tspan><tspan
+         sodipodi:role="line"
+         x="25.253805"
+         y="389.24527"
+         style="font-size:12px"
+         id="tspan10529">method.invoke(urlClassLoader, </tspan><tspan
+         sodipodi:role="line"
+         x="25.253805"
+         y="404.24527"
+         style="font-size:12px;font-weight:bold;-inkscape-font-specification:Courier Bold"
+         id="tspan10535">new Object[]{&quot;/path/NDB-DAL-API-Impl.jar&quot;.toURI().toURL()});</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.82389593;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:11.29558382, 5.64779191;stroke-dashoffset:0"
+       d="M 497.89685,128.87288 499.0831,454.3181"
+       id="path10541"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2,1;stroke-dashoffset:0"
+       d="m 139.40105,325.05235 165.66502,-97.9848 39.39595,97.9848"
+       id="path10545"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="M 374.76659,205.85435 529.31993,204.8442"
+       id="path10547"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 185.86807,205.85435 50.50763,0"
+       id="path10549"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold;text-anchor:middle;text-align:center"
+       x="615.23761"
+       y="143.39952"
+       id="text10262-5-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan10264-1-9"
+         x="523.48566"
+         y="143.39952">Hops-FS Data Access Layer </tspan><tspan
+         sodipodi:role="line"
+         x="523.48566"
+         y="158.39952"
+         id="tspan11126">API Implementation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier;-inkscape-font-specification:Courier"
+       x="535.38086"
+       y="248.28075"
+       id="text11132"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan11134"
+         x="535.38086"
+         y="248.28075">/path/NDB-DAL-API-Impl.jar</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:1, 4;stroke-dashoffset:0;marker-end:url(#Arrow2Lend)"
+       d="m 530.33009,243.22999 -51.51778,0 3.03045,210.11173 -274.76149,-1.01015 -1.01015,-41.41625"
+       id="path11136"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
