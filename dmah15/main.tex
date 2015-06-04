@@ -41,10 +41,13 @@
 \usepackage[noend]{algorithm,algcompatible,algpseudocode}
 \usepackage{amssymb} % for symbols 
 \usepackage{caption} % algorthm is a float and does not split. use caption instead
-\usepackage{subcaption}
+% \usepackage{subcaption}
 \usepackage{etoolbox}\AtBeginEnvironment{algorithmic}{\footnotesize}
 %\algsetup{linenosize=\small}
 \usepackage{subfig}
+\usepackage[T1]{fontenc}
+\usepackage{mwe}    % loads »blindtext« and »graphicx«
+
 \makeatother
 \algblockdefx[NAME]{StartTransaction}{EndTransaction}
 [1]{\textbf{begin transaction} \textbf{#1}}{\textbf{commit transaction}}

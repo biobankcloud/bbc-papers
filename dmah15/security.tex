@@ -26,8 +26,8 @@ The Yubikey enters the Yubikey device into a USB port. The user enters the simpl
 
 \subsection {Access Control}
 The access control component ensures authorized access to genomics data as internal objects or different services within the platform. This is accomplished through a role-based access control (RBAC) model and authorization of data access on the HDFS, for example, a data owner adds/revokes members to a study and assigns privileges to access the study.
-
-\subsubsection {Role-Based Access Control in HDFS}
+% 
+% \subsubsection {Role-Based Access Control in HDFS}
 The proposed RBAC model contains information about the roles of individuals within the organization and the associated levels of access to services.
 \begin{itemize}
 \item Administrator: group of users who acts as the platform manager and Ethics Board.
@@ -36,9 +36,6 @@ The proposed RBAC model contains information about the roles of individuals with
 \item Guest: general visitors to the platform who are able to request an account to use the services.
 \item Researcher: users of the platform that can join a study to run workflows. Researchers also can become data providers through creating a new study and uploading data to the platform.
 \end{itemize}
-A user may have different roles in different Studies. For example, be a Data Provider in one and a Researcher in another. Ultimately, the roles are enforced by filesystem privileges in HopsFS. For example, when a DataSet is created, the owner of the folder and its files is the Data Provider, while a group is created to give other users read-only access. Users with roles such as Auditor and Researcher are given read-only access by becoming members of a group created specifically for that DataSet, and where the group read-only privileges on the filesystem. However, if the same user ID is a member of a different group that has read privileges on a different DataSet in HDFS, then there is nothing preventing that user from writing a program that cross-links both DataSets - even if those DataSets are in different Studies, see \ref{fig:ac:problem:isolation}.
-
-Our solution is to generate a new user ID for every Study. When a user runs a job on a study or accesses files in a study, it does it using the study-specific user ID. The study-specific user ID is a composite of the Study name and the username: $studyname_username$. The structure our study-specific user IDs has the added benefit that HopsFS can translate relative paths in the filesystem to study-specific paths, as studies are stored in $/studies/studyName$.
 
 \begin{figure}[h]
  \centering
@@ -47,6 +44,16 @@ Our solution is to generate a new user ID for every Study. When a user runs a jo
 	\caption{Access control with the same HDFS user ID in both studies means that the attacker can cross-link data from both studies.}
 	\label{fig:ac:problem:isolation}
 \end{figure}
+
+
+A user may have different roles in different Studies. For example, be a Data Provider in one and a Researcher in another. For example, a user that creates a DataSet in a Study has the role of Data Provider and that user becomes the the owner of the folder and its files in HopsFS. However, that same user may be a Researcher in a different Study and not be allowed to create DataSets, but may read existing DataSets in the Study for the purpose of running analysis jobs. At the filesystem level, that user would be allowed read those DataSets by its user ID being a member of a group that has read privileges on the DataSet.
+
+Now consider what an attacker with such privileges at the filesystem level can do. The attacker could write a program (like a MapReduce job) that cross-links data from DataSets in the different studies. In the filesystem, the DataSets are just files/directories with owner/group/world privileges, and the user is owner of one set of files and a member of a group with read privileges on another set of files. The problem here is that, if, at the filesystem level, we use the same user ID to represent the user in both Studies, then there is nothing preventing that user from writing a program that cross-links both DataSets, see \ref{fig:ac:problem:isolation}. Access control lists would not help solve this problem, although attribute-based policies could fix this - but they are not considered at the filesystem level due to their poor performance.
+
+% Ultimately, the roles are enforced by owner, group, and world filesystem privileges in HopsFS. 
+
+Our solution is to generate a new user ID for every member of every Study. The new user ID is a composite ID, consisting of both the user's global ID and the Study name. In addition to this, for every DataSet created, a new group is created, and all members of the Study where the DataSet was created that have an appropriate role are added to the new group. This method also enables us to safely share DataSets between studies. If a DataSet is shared with a different Study to the one where the DataSet was created, then the members of the different study with appropriate roles can be added to the group created for the DataSet. HopsFS can subsequently enforce these privileges using owener/group/world access rights, as programs that are run from within a Study are run with the study-specific ID. The only files in HopsFS that the study-specific ID will have privileges to access are DataSets from within that Study and DataSets that are shared with that Study. 
+% With the study-specific user ID having either owner or group privileges on files in DataSets (depending on whether the user created the DataSet or not), HopsFS can now enforce the RBAC model using owner-group-world privileges.
 
 
 % \begin{figure}[h]
