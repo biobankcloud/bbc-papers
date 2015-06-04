@@ -83,20 +83,20 @@ Mode=LaTeX
 
 [item:bbc-dmah15.bib]
 archive=true
-column=9
+column=0
 encoding=UTF-8
 highlight=BibTeX
-line=0
+line=192
 mode=BibTeX
-open=true
+open=false
 order=4
 
 [item:charonfs.tex]
 archive=true
-column=28
+column=13
 encoding=UTF-8
 highlight=LaTeX
-line=24
+line=20
 mode=LaTeX
 open=false
 order=4
@@ -106,9 +106,9 @@ archive=true
 column=0
 encoding=UTF-8
 highlight=LaTeX
-line=32
+line=4
 mode=LaTeX
-open=true
+open=false
 order=0
 
 [item:imgs/HDFS-structure.eps]
@@ -173,10 +173,10 @@ order=-1
 
 [item:introduction.tex]
 archive=true
-column=588
+column=1055
 encoding=UTF-8
 highlight=LaTeX
-line=2
+line=6
 mode=LaTeX
 open=false
 order=2
@@ -193,22 +193,22 @@ order=-1
 
 [item:lims.tex]
 archive=true
-column=0
+column=408
 encoding=UTF-8
 highlight=LaTeX
-line=10
+line=13
 mode=LaTeX
-open=true
+open=false
 order=3
 
 [item:main.tex]
 archive=true
-column=15
+column=26
 encoding=UTF-8
 highlight=LaTeX
-line=104
+line=114
 mode=LaTeX
-open=true
+open=false
 order=1
 
 [item:regulation.tex]
@@ -223,84 +223,84 @@ order=-1
 
 [item:relatedWork.tex]
 archive=true
-column=183
+column=40
 encoding=UTF-8
 highlight=LaTeX
-line=10
+line=5
 mode=LaTeX
-open=true
+open=false
 order=2
 
 [item:sassfee.tex]
 archive=true
-column=72
+column=27
 encoding=UTF-8
 highlight=LaTeX
-line=22
+line=11
 mode=LaTeX
-open=true
+open=false
 order=6
 
 [item:security.tex]
 archive=true
-column=462
+column=13
 encoding=UTF-8
 highlight=LaTeX
-line=40
+line=51
 mode=LaTeX
-open=true
+open=false
 order=5
 
 [view-settings,view=0,item:bbc-dmah15.bib]
-CursorColumn=9
-CursorLine=0
+CursorColumn=0
+CursorLine=192
 JumpList=
-ViMarks=.,0,16,[,0,9,],0,16
+ViMarks=.,192,0,[,192,0,],192,0
 
 [view-settings,view=0,item:charonfs.tex]
-CursorColumn=28
-CursorLine=24
+CursorColumn=13
+CursorLine=20
 JumpList=
-ViMarks=.,24,27,[,24,26,],24,27
+ViMarks=.,20,13,[,20,13,],20,13
 
 [view-settings,view=0,item:hops.tex]
 CursorColumn=0
-CursorLine=32
+CursorLine=4
 JumpList=
-ViMarks=.,1,359,[,1,359,],1,359
+ViMarks=.,3,13,[,2,0,],-1,-1
 
 [view-settings,view=0,item:introduction.tex]
-CursorColumn=588
-CursorLine=2
+CursorColumn=1055
+CursorLine=6
 JumpList=
-ViMarks=.,8,439,[,8,430,],8,439
+ViMarks=.,6,1055,[,6,1055,],6,1055
 
 [view-settings,view=0,item:lims.tex]
-CursorColumn=0
-CursorLine=10
+CursorColumn=408
+CursorLine=13
 JumpList=
-ViMarks=.,10,0,[,10,0,],10,0
+ViMarks=.,23,13,[,23,0,],-1,-1
 
 [view-settings,view=0,item:main.tex]
-CursorColumn=15
-CursorLine=104
+CursorColumn=26
+CursorLine=114
 JumpList=
-ViMarks=.,109,916,[,109,910,],109,916,a,22,0
+ViMarks=.,112,67,[,112,67,],112,67,a,22,0
 
 [view-settings,view=0,item:relatedWork.tex]
-CursorColumn=183
-CursorLine=10
+CursorColumn=40
+CursorLine=5
 JumpList=
-ViMarks=.,10,182,[,10,182,],10,182
+ViMarks=.,5,39,[,5,28,],5,39
 
 [view-settings,view=0,item:sassfee.tex]
-CursorColumn=72
-CursorLine=22
+CursorColumn=27
+CursorLine=11
 JumpList=
-ViMarks=.,20,0,[,20,0,],20,0
+ViMarks=.,11,26,[,11,26,],11,26
 
 [view-settings,view=0,item:security.tex]
-CursorColumn=462
-CursorLine=40
+CursorColumn=13
+CursorLine=51
 JumpList=
-ViMarks=.,40,462,[,40,462,],40,462
+ViMarks=.,51,13,[,51,13,],51,13
