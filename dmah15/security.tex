@@ -10,20 +10,24 @@ Figure \ref{fig:security} shows the different components of the employed securit
 \centering
 \includegraphics[width=\textwidth]{./imgs/security.png}
 % stack.eps: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=0 -1 805 312                                                                                                                                               
-\caption{Overview of the security framework to ensure authorized access to the BiobankCloud (BBC) services.}
+\caption{Security framework authorizes access to the BiobankCloud via the LIMS.}
 \label{fig:security}
 \end{figure}
 
+\vspace{-5mm}
 
 \subsection{2-Factor Authentication}
 The authentication services map the person accessing the platform to a user identity. We provide 2-factor authentication using smart mobile devices or Yubikey \footnote {Yubikey Manual,http://www.yubico.com} hardware tokens to support different groups of users. Users send authentication requests via a Web browser to the authentication service that runs instances of the time-based one-time password (TOTP) and Yubikey one-time password (YOTP) protocols.
 
+\vspace{-5mm}
 \subsubsection {Mobile Authentication}
 The mobile user supplies an one-time generated password by the Google Authenticator \footnote{Google Authenticator, https://code.google.com/p/google-authenticator/} in addition to a simple password that was decided during the account registration. The login page authenticates the user to to the platform using the TOTP module as an implementation of the RFC 6238 \footnote{Time-Based One-Time Password (TOTP), http://tools.ietf.org/html/rfc6238}.   
 
+\vspace{-5mm}
 \subsubsection {Yubikey Authentication}
 The Yubikey user enters the Yubikey device into a USB port. The user enters the simple password that was decied during the account registration and pushes the Yubikey button. The Yubikey login page authenticates the user to the platform via the YOTP module.
 
+\vspace{-2mm}
 \subsection {Access Control}
 The access control component ensures authorized access to genomics data as internal objects or different services within the platform. This is accomplished through a role-based access control (RBAC) model and authorization of data access on the HDFS, for example, a data owner adds/revokes members to a study and assigns privileges to access the study.
 % 
@@ -37,6 +41,7 @@ The proposed RBAC model contains information about the roles of individuals with
 \item Researcher: users of the platform that can join a study to run workflows. Researchers also can become data providers through creating a new study and uploading data to the platform.
 \end{itemize}
 
+\vspace{-5mm}
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.3]{./imgs/studyIsolation.eps}
@@ -44,7 +49,7 @@ The proposed RBAC model contains information about the roles of individuals with
 	\caption{Access control with the same HDFS user ID in both studies means that the attacker can cross-link data from both studies.}
 	\label{fig:ac:problem:isolation}
 \end{figure}
-
+\vspace{-5mm}
 
 A user may have different roles in different Studies. For example, be a Data Provider in one and a Researcher in another. For example, a user that creates a DataSet in a Study has the role of Data Provider and that user becomes the the owner of the folder and its files in HopsFS. However, that same user may be a Researcher in a different Study and not be allowed to create DataSets, but may read existing DataSets in the Study for the purpose of running analysis jobs. At the filesystem level, that user would be allowed read those DataSets by its user ID being a member of a group that has read privileges on the DataSet.
 
