@@ -1,7 +1,8 @@
-\section{Hadoop Open Plataform-as-a-Service (Hops)}
-In BiobankCloud, we are using our distribution of the Hadoop Filesystem (HDFS), HopsFS, to store genomic data as files.  Hops is a distribution of Apache Hadoop 2 that has a new metadata management architecture based on a shared-nothing, in-memory distributed database, see Figure \ref{fig:hops}. As metadata can now grow to TBs in size (compared to  ~100GB in Apache HDFS \cite{shvachko2010Hdfs}), Hops can scale to store 100s of millions of files.
-The HopsFS architecture includes multiple stateless NameNodes that manage the namespace metadata  stored in the database, see figure \ref{subfig:hopsfs}. HopsFS' clients and DataNodes are aware of all NameNodes in the system. HopsFS is  highly available: whenever a NameNode fails the failed operations are automatically retried by clients and the DataNodes by forwarding the failed requests to a different live NameNode. We use MySQL Cluster~\cite{ronstrom2005recovery} as the database, as it has high throughput and is also highly available, although any distributed in-memory database that supports transactions and row level locking could be used. On database node failures, failed transactions are re-scheduled by NameNodes on surviving database nodes.
-\vspace{-5mm}
+
+\section{Hadoop Open Platform-as-a-Service (Hops)}
+
+A full installation of our platform builds on an adapted distribution of the Hadoop File System (HDFS), called HopsFS, which builds on a new metadata management architecture based on a shared-nothing, in-memory distributed database (see Figure \ref{fig:hops}). Provided enough main memory in the nodes, metadata can  grow to TBs in size with our approach (compared to  ~100GB in Apache HDFS \cite{shvachko2010Hdfs}), which allows HopsFS to store 100s of millions of files. The HopsFS architecture includes multiple stateless NameNodes that manage the namespace metadata stored in the database (see Figure \ref{subfig:hopsfs}). HopsFS' clients and DataNodes are aware of all NameNodes in the system. HopsFS is  highly available: whenever a NameNode fails the failed operations are automatically retried by clients and the DataNodes by forwarding the failed requests to a different live NameNode. We use MySQL Cluster~\cite{ronstrom2005recovery} as the database, as it has high throughput and is also highly available, although any distributed in-memory database that supports transactions and row level locking could be used. On database node failures, failed transactions are re-scheduled by NameNodes on surviving database nodes.
+
 \begin{figure}[!ht]
     \subfloat[HopsFS\label{subfig:hopsfs}]{%
       \includegraphics[width=0.46\textwidth]{./imgs/hops-fs-arch.eps}
@@ -13,9 +14,8 @@ The HopsFS architecture includes multiple stateless NameNodes that manage the na
     \caption{HopsFS and HopsYARN architectures.}
     \label{fig:hops}
 \end{figure}
-\vspace{-5mm}
-
-We ensure the consistency of the filesystem metadata by implementing serialized transactions on well-ordered operations on metadata~\cite{hops_consistency}. A leader NameNode is responsible for file system maintenance tasks,  and leader failure triggers our own leader-election service based on the database~\cite{hopselection}. 
+ 
+We ensure the consistency of the file system metadata by implementing serialized transactions on well-ordered operations on metadata~\cite{hops_consistency}. A leader NameNode is responsible for file system maintenance tasks,  and leader failure triggers our own leader-election service based on the database~\cite{hopselection}. 
 HopsFS can reduce the amount of storage space required to store genomic data, while maintaining high availability by storing files using Reed-Solomon erasure coding, instead of the traditional three-way replication  used in HDFS. Erasure-coding can reduce disk space consumption by 44\% compared to three-way replication. In HopsFS, an ErasureCodingManager runs on the  leader NameNode, managing file encoding and file repair operations, as well as implementing a policy that places file blocks on DataNodes in such a way that ensures that, in the event of a DataNode failure, affected files can still be repaired.
 
 \subsection*{Designing, Indexing and Searching Extended Metadata}

@@ -60,7 +60,7 @@
 \newcommand{\cmark}{\ding{51}}%
 \newcommand{\xmark}{\ding{53}}%
 
-\title{BiobankCloud: Secure Storage, Sharing, and Processing of NGS Data}
+\title{A Platform for Secure Storage, Sharing, and Processing of Large Biomedical Data Sets}
 
 \author{Alysson Bessani\inst{5}, Marc Bux\inst{2}, Joergen Brandt\inst{2}, Jim Dowling \inst{1}, Ali Gholami\inst{1}, Micheal Hummel\inst{4}, Mahmoud Ismail\inst{1}, Erwin Laure\inst{1}, Ulf Leser\inst{2}, Jan-Eric Litton\inst{3}, Roxanna Martinez\inst{3}, Salman Niazi\inst{1}}
 
@@ -95,7 +95,7 @@ University of Lisbon\\
 \maketitle
 
 \begin{abstract}
-Biobanks store and catalog human biological material that is increasingly being digitized using technologies such as whole genome sequencing. There is, however, a Biobank bottleneck: existing software systems are not scalable and secure enough to store and process the coming wave of genomic data from Next-Generation Sequencing machines. In the BiobankCloud project, we are building an open-source Hadoop-based platform for the secure storage, sharing, and parallel processing of genomic data. We have extended Hadoop to include support for multi-tenant studies, reduced data sizes with erasure coding, support for extensible and consistent metadata. On top of Hadoop, we have built a scalable scientific workflow framework and support secure sharing of data across Hadoop clusters. Finally, we provide user-friendly access to the BiobankCloud services in a Laboratory Information Managmenent System with support for 2-factor authentication.
+Biobanks store and catalog human biological material that is increasingly being digitized using next generation sequencing (NGS). There is, however, a computational bottleneck, as existing software systems are not scalable and secure enough to store and process the incoming wave of genomic data from NGS machines. In the BiobankCloud project, we are building an open-source Hadoop-based platform for the secure storage, sharing, and parallel processing of genomic data. We extended Hadoop to include support for multi-tenant studies, reduced storage requirements with erasure coding, and added support for extensible and consistent metadata. On top of Hadoop, we built a scalable scientific workflow engine featuring a proper workflow definition language focussing and simple integration and chaining of existing tools, adaptive scheduling on Apache Yarn, and support for iterative dataflows. Our platform also support secure sharing of data across different, distributed Hadoop clusters. The entire system is easily installed and comes with a provide user-friendly web interface for running, managing, and accessing data sets behind a secure 2-factor authentication. Initial tests have shown that the engine scales well to dozens of nodes. The entire system is open-source and includes pre-defined workflows for popular tasks in biomedical data analysis, such as variant identification, differential transcriptome analysis using RNA-Seq, and analysis of miRNA-Seq, and ChIP-Seq data.
 \end{abstract}
 
 

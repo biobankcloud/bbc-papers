@@ -7,13 +7,14 @@
  \caption{BiobankCloud Architecture}
  \label{fig:arch}
 \end{figure}
-The BiobankCloud architecture, see Figure \ref{fig:arch}, is a layered architecture with a user facing LIMS application, where the user logs in with 2-factor authentication, and can access services, such as SAASFEE, HopsYARN, CharonFS, HopsFS, and Elasticsearch. SAASFEE is built over YARN, while CharonFS can use HopsFS as a backing store. HopsFS, HopsYARN and Elasticsearch all use the distributed, in-memory database.
 
-\subsection*{DataSets and Studies}
-BiobankCloud introduces \textbf{DataSets} as a new abstraction to Hadoop, where a DataSet consists of a related group of directories, files, and extended metadata. DataSets can be indexed and searched and are the basic unit of data management in BiobankCloud; all user-generated files or directories belong to a single DataSet. In Biobanking, a sample collection would be a typical example of a DataSet.  To allow for access control of users to DataSets, which is not inherent in the DataSet concept, we introduce the notion of \textbf{Studies}. A Study is a grouping of researchers and DataSets , see figure \ref{fig:studies}. 
-% The basic user roles we provide reflect the European Data Protection Directive, with a DataOwner (data controller) and a DataScientist (data processer). DataSets can be shared between Studies (when the necessary security, legal, and ethical conditions for sharing are in place).  In BiobankCloud, we use the access control mechanism of HopsFS to implement the Study- and DataSet-based authorization model. 
-% Roles are defined and privileges are enforced in HopsFS.
-\vspace{-5mm}
+Our platform has a layered architecture ( see Figure \ref{fig:arch}). In a typical installation, users will access the system through the web interface with 2-factor authentication. From there, she can access all services, such as the enhanced file system HopsFS (see Chapter 5), the workflow execution engine SAASFEE (see Chapter 6), the federated cloud service CharonFS (see Chapter 6), and an Elasticsearch instance to search through an entire installation. SAASFEE is built over YARN, while CharonFS can use HopsFS as a backing store. HopsFS and  Elasticsearch all use a distributed, in-memory database for improved metadata management and consistency. Note that all services can also be accessed directly through command-line interfaces.
+
+\subsection*{Data Sets for Hadoop}
+
+The web interface has integrated a LIMS to manage the typical data items inside a biobank, and to provide fine-grained access control to these items. These items are also reflected in the Hadoop installation. Specifically, 
+BiobankCloud introduces \textbf{DataSets} as a new abstraction, where a DataSet consists of a related group of directories, files, and extended metadata. DataSets can be indexed and searched (through Elasticsearch) and are the basic unit of data management in BiobankCloud; all user-generated files or directories belong to a single DataSet. In Biobanking, a sample collection would be a typical example of a DataSet.  To allow for access control of users to DataSets, which is not inherent in the DataSet concept, we introduce the notion of \textbf{Studies}. A Study is a grouping of researchers and DataSets (see Figure \ref{fig:studies}) and the basic unit of privacy protection (see below). 
+
 \begin{figure}[h]
  \centering
  \includegraphics[scale=0.4]{./imgs/projects-as-groupings1.eps}
@@ -21,4 +22,4 @@ BiobankCloud introduces \textbf{DataSets} as a new abstraction to Hadoop, where 
 \caption{Study1 has John and Mary as users and includes DataSet1, while Study2 has only John as as a user and includes DataSet1, DataSet2, and DataSet3.}
 \label{fig:studies}
 \end{figure}
-\vspace{-5mm}
+
