@@ -8,7 +8,7 @@
  \label{fig:arch}
 \end{figure}
 
-Our platform has a layered architecture ( see Figure \ref{fig:arch}). In a typical installation, users will access the system through the web interface with 2-factor authentication. From there, she can access all services, such as the enhanced file system HopsFS (see Chapter 5), the workflow execution engine SAASFEE (see Chapter 6), the federated cloud service CharonFS (see Chapter 6), and an Elasticsearch instance to search through an entire installation. SAASFEE is built over YARN, while CharonFS can use HopsFS as a backing store. HopsFS and  Elasticsearch all use a distributed, in-memory database for improved metadata management and consistency. Note that all services can also be accessed directly through command-line interfaces.
+Our platform has a layered architecture (see Figure \ref{fig:arch}). In a typical installation, users will access the system through the web interface with 2-factor authentication. From there, she can access all services, such as the enhanced file system HopsFS (see section \ref{hops}), the workflow execution engine SAASFEE (see section \ref{saasfee}), the federated cloud service CharonFS (see section \ref{charonfs}), and an Elasticsearch instance to search through an entire installation. SAASFEE is built over YARN, while CharonFS can use HopsFS as a backing store. HopsFS and  Elasticsearch use a distributed, in-memory database for metadata management. Note that all services can also be accessed directly through command-line interfaces.
 
 \subsection*{Data Sets for Hadoop}
 

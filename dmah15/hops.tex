@@ -1,5 +1,5 @@
-
 \section{Hadoop Open Platform-as-a-Service (Hops)}
+\label{hops}
 
 A full installation of our platform builds on an adapted distribution of the Hadoop File System (HDFS), called HopsFS, which builds on a new metadata management architecture based on a shared-nothing, in-memory distributed database (see Figure \ref{fig:hops}). Provided enough main memory in the nodes, metadata can  grow to TBs in size with our approach (compared to  ~100GB in Apache HDFS \cite{shvachko2010Hdfs}), which allows HopsFS to store 100s of millions of files. The HopsFS architecture includes multiple stateless NameNodes that manage the namespace metadata stored in the database (see Figure \ref{subfig:hopsfs}). HopsFS' clients and DataNodes are aware of all NameNodes in the system. HopsFS is  highly available: whenever a NameNode fails the failed operations are automatically retried by clients and the DataNodes by forwarding the failed requests to a different live NameNode. We use MySQL Cluster~\cite{ronstrom2005recovery} as the database, as it has high throughput and is also highly available, although any distributed in-memory database that supports transactions and row level locking could be used. On database node failures, failed transactions are re-scheduled by NameNodes on surviving database nodes.
 
