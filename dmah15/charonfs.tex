@@ -11,15 +11,15 @@ File \texttt{D}, less critical, is kept in a single cloud.
 File \texttt{A} is stored locally because it cannot leave Biobank 2. 
 File \texttt{C} is shared between the two sites (e.g., in the same country), thus being stored in both of them.
 
-\vspace{-5mm}
-\begin{figure}[h]
+% \vspace{-5mm}
+\begin{figure}[ht]
  \centering
  \includegraphics[width=0.5\columnwidth]{./imgs/charon_arch.pdf}
  % charon_arch.pdf: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
 \caption{\small \textsc{Charon} overview.}
 \label{fig:charon}
 \end{figure}
-\vspace{-5mm}
+% \vspace{-5mm}
 
 The BiobankCloud platform is able to process data stored in HopsFS, which has a view of all data being stored in a single cluster. \textsc{Charon} performs the inter-datacenter tasks and the processes between Biobanks and public clouds.
 % In the next section, we discuss the integration between these two storage systems and evaluate the most appropriate integration scenario for the BiobankCloud platform.
