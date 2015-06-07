@@ -62,7 +62,7 @@
 
 \title{BiobankCloud: a Platform for the Secure Storage, Sharing, and Processing of Large Biomedical Data Sets}
 
-\author{Alysson Bessani\inst{5}, Joergen Brandt\inst{2}, Marc Bux\inst{2}, Jim Dowling \inst{1}, Ali Gholami\inst{1}, Micheal Hummel\inst{4}, Mahmoud Ismail\inst{1}, Erwin Laure\inst{1}, Ulf Leser\inst{2}, Jan-Eric Litton\inst{3}, Roxanna Martinez\inst{3}, Salman Niazi\inst{1}, Jane Reichel\inst{6}}
+\author{Alysson Bessani\inst{5}, Joergen Brandt\inst{2}, Marc Bux\inst{2}, Vinicius Cogo \inst{5}, Jim Dowling \inst{1}, Ali Gholami\inst{1}, Micheal Hummel\inst{4}, Mahmoud Ismail\inst{1}, Erwin Laure\inst{1}, Ulf Leser\inst{2}, Jan-Eric Litton\inst{3}, Roxanna Martinez\inst{3}, Salman Niazi\inst{1}, Jane Reichel\inst{6}}
 
 \institute{KTH - Royal Institute of Technology,\\
 \email{\{jdowling, gholami, maism, erwinl, smkniazi\}@kth.se}
@@ -77,7 +77,7 @@ Charite\\
 \email{\{Michael.Hummel\}@charite.de}
 \and
 University of Lisbon\\
-\email{\{bessani\}@di.fc.ul.pt}
+\email{\{bessani, vielmo\}@lasige.di.fc.ul.pt}
 \and
 Uppsala University\\
 \email{\{jane.reichel\}@jur.uu.se}
@@ -119,7 +119,7 @@ Biobanks store and catalog human biological material that is increasingly being 
 % \vskip-5pt
 
 \section{Conclusions}
-In this paper, we introduced the BiobankCloud platform, a platform that provides a number of features necessary for Biobanks to adopt Hadoop-based solutions for managing NGS data. Critical security features that we have introduced for managing sensitive data include multi-tenancy to isolate Studies and 2-factor authentication. Next-generation data management systems for NGS data must be massively scalable. We introduced our scalable storage service, HopsFS, our processing framework, HopsYARN, and our framework for scalable bioinformatics workflows, SAASFEE. We also provide metadata design and search services, while ensuring the integrity of metadata. Finally, in CharonFS, we showed how we can leverage public clouds to share data securely between clusters. BiobankCloud's secure and scalable open platform software is helping to remove the Biobank Bottleneck and enable population-level genomics.
+In this paper, we introduced the BiobankCloud platform, a platform that provides a number of features necessary for Biobanks to adopt Hadoop-based solutions for managing NGS data. Critical security features that we have introduced for managing sensitive data include multi-tenancy to isolate Studies and 2-factor authentication. Next-generation data management systems for NGS data must be massively scalable. We introduced our scalable storage service, HopsFS, our processing framework, HopsYARN, and our framework for scalable bioinformatics workflows, SAASFEE. We also provide metadata design and search services, while ensuring the integrity of metadata. Finally, in Charon, we showed how we can leverage public clouds to share data securely between clusters. BiobankCloud's secure and scalable open platform software is helping to remove the Biobank Bottleneck and enable population-level genomics.
 % \vskip-5pt
 \section{Acknowledgements}
 This work is funded by the EU FP7 project ``Scalable, Secure Storage and Analysis of Biobank Data'' under Grant Agreement no. 317871. 

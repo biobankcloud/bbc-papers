@@ -4,14 +4,14 @@ The BiobankCloud environment deploys strong security features for concerns such 
 
 
 Figure \ref{fig:security} shows the different components of the employed security mechanisms. All BioBankCloud services are protected behind the firewall and only accessible through the secure interfaces over HTTPS channels.
-
+\vskip-5pt
 \begin{figure}[h]
 \centering
-\includegraphics[width=\textwidth]{./imgs/security.png}
-\caption{Security framework authorizes access to the BiobankCloud via the web front-end.}
+\includegraphics[width=0.8\textwidth]{./imgs/security.png}
+\caption{Secure access to the BiobankCloud via a web front-end.}
 \label{fig:security}
 \end{figure}
-
+\vskip-5pt
 \subsection{2-Factor Authentication}
 The authentication services map the person accessing the platform to a user identity. We provide 2-factor authentication using smart mobile devices or Yubikey \footnote {Yubikey Manual,http://www.yubico.com} hardware tokens to support different groups of users. Users send authentication requests via a Web browser to the authentication service that runs instances of the time-based one-time password (TOTP) and Yubikey one-time password (YOTP) protocols.
 
