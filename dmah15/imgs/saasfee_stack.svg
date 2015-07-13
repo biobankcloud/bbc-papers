@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="661.33331"
-   height="361.33334"
+   width="590"
+   height="270"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
@@ -124,9 +124,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="751.51597"
-     inkscape:cy="206.74691"
+     inkscape:zoom="1.4"
+     inkscape:cx="370.18579"
+     inkscape:cy="10.796796"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -164,11 +164,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(180.66667,-36.695507)">
+     transform="translate(-579.33331,-78.028851)">
     <rect
        style="fill:#448907;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3895"
-       width="260.00003"
+       width="230"
        height="40"
        x="629.33331"
        y="308.02884" />
@@ -181,7 +181,7 @@
        style="fill:#ff431b;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <path
        style="fill:#0b77db;fill-opacity:1;stroke:none"
-       d="m 810,151.33334 0,110 550,0 0,-219.999996 c -36.6667,36.666669 -73.3333,73.333326 -110,109.999996 z"
+       d="m 810,151.33334 0,110 540,0 0,-209.999996 c -36.6667,36.666669 -63.3333,63.333326 -100,99.999996 z"
        id="path3893"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc"
@@ -201,7 +201,7 @@
        x="639.33331"
        y="198.02885" />
     <path
-       style="fill:#bebebe;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       style="fill:#bebebe;fill-opacity:1;stroke:none"
        d="m 820,141.33334 60,0 100,-99.999996 -60,0 z"
        id="path3857"
        inkscape:connector-curvature="0"
@@ -215,7 +215,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        x="780.63214"
        y="280.92923"
        id="text3921"
@@ -230,7 +230,7 @@
        id="text3911"
        y="231.51518"
        x="688.97198"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        xml:space="preserve"><tspan
          style="font-size:40px;font-weight:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:Calibri"
          y="231.51518"
@@ -240,14 +240,14 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="648.58136"
-       y="338.0386"
+       x="702.12628"
+       y="337.16946"
        id="text3939"
        sodipodi:linespacing="121%"><tspan
          sodipodi:role="line"
          id="tspan3941"
-         x="648.58136"
-         y="338.0386">Hops Hadoop</tspan></text>
+         x="702.12628"
+         y="337.16946">Hops</tspan></text>
     <text
        sodipodi:linespacing="121%"
        id="text4397"
@@ -262,7 +262,7 @@
          sodipodi:role="line">LIMS</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        x="360.13266"
        y="609.07483"
        id="text3851"
@@ -284,7 +284,7 @@
        id="text3861"
        y="658.57227"
        x="409.63013"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        xml:space="preserve"><tspan
          style="font-size:40px;font-weight:normal;fill:#7f7f7f;fill-opacity:1;-inkscape-font-specification:Calibri"
          y="658.57227"
@@ -298,7 +298,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        x="459.12759"
        y="708.06976"
        id="text3867"
@@ -320,7 +320,7 @@
        id="text3873"
        y="757.56726"
        x="508.62506"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        xml:space="preserve"><tspan
          style="font-size:40px;font-weight:normal;fill:#7f7f7f;fill-opacity:1;-inkscape-font-specification:Calibri"
          y="757.56726"
@@ -343,13 +343,13 @@
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
        sodipodi:linespacing="121%"
        id="text3889"
-       y="947.05054"
-       x="563.19482"
+       y="946.74738"
+       x="548.54761"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        xml:space="preserve"><tspan
          style="font-size:40px;font-weight:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:Calibri"
-         y="947.05054"
-         x="563.19482"
+         y="946.74738"
+         x="548.54761"
          id="tspan3891"
          sodipodi:role="line">SAASFEE</tspan></text>
     <text
@@ -380,20 +380,20 @@
          style="font-size:40px;font-weight:normal;fill:#7f7f7f;fill-opacity:1;-inkscape-font-specification:Calibri">Galaxy</tspan></text>
     <rect
        y="308.02884"
-       x="919.33331"
+       x="889.33331"
        height="40"
-       width="260.00003"
+       width="280.00003"
        id="rect3033"
        style="fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        sodipodi:linespacing="121%"
        id="text3035"
        y="338.07767"
-       x="920.66144"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:121.00000381000000000%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
+       x="900.66144"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
        xml:space="preserve"><tspan
          y="338.07767"
-         x="920.66144"
+         x="900.66144"
          id="tspan3037"
          sodipodi:role="line">Apache Hadoop</tspan></text>
   </g>
