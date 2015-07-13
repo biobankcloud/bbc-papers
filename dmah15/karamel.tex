@@ -1,0 +1,47 @@
+\section{Automated Installation}
+
+BiobankCloud supports automated installation. It can be installed by non-technical users who can click-through an installation using only a file that defines a BiobankCloud cluster and account credentials for a cloud computing platform. Our solution is based both the configuration management platform Chef~\cite{chef13nelson}, and an orchestration engine that we designed for Chef called Karamel. The main reason we adopted Chef is that it provides support for both upgrading long-lived stateful software and parameterized installations. This contrasts with container-based approaches, such as Docker, that are not yet suitable for online upgrading of stateful systems and also have limited support for parameterization and orchestration. Chef has, however, no support for orchestrating installations. For distributed systems with many services, such as BiobankCloud, there is often a need to start and initialize services in a well-defined order, that is, to orchestrate the installation and starting of services. To this end, we developed an orchestration engine for Chef called Karamel. 
+
+In Chef, the basic unit of installation is a recipe, a program written in a domain-specifc language for Ruby. In keeping with best practice, in BiobankCloud, each recipe corresponds to a single distributed system service. Recipes are grouped together into software artifacts called cookbooks. We have written Chef cookbooks and services for all our software components. our Hadoop platform stores its single cookbook in a repository on GitHub called \textit{hops-hadoop-chef}. For each Hadoop services, our hops cookbook has recipe that both installs starts it. The recipes include the NameNode (hops::nn), the DataNode (hops::dn), ResourceManager (hops::rm), and NodeManager (hops::nm). Hops also uses a database called NDB, with its cookbook stored in ndb-chef. Similarly, our LIMS (hopsworks) and SAASFEE (hiway) have their own repositories. Karamel aaugments cookbooks with orchestration rules for recipes defined in a file called \textit{Karamelfile}. The Karamelfile defines what services need to be running within the cluster (and locally) before a given recipe is executed. 
+
+Given the set of all recipes that need to be installed on all nodes, as weel as the orchestration rules for the cookbooks, Karamel can take a declarative cluster definition and execute it to install the BiobankCloud platform. In listing~\ref{yaml} below, we can see a definition of a large BiobankCloud cluster, consisting of 110 nodes. The cluster is defined for Amazon Web Services (\textit{ec2}), but that section of the file can be modified to deploy the same cluster to a different cloud platform, such as OpenStack. The \textit{cookbooks} section defines where the cookbook software artifacts are located. Karamel uses this information to download orchestration rules for the cookbooks and metadata, thus enabling smaller cluster definition files, since they do not need their own orchestration rules. The \textit{attrs} section defines a single parameter for the user that will run the LIMS. In production installations, the \textit{attrs} section typically contains more extensive configuration parameters. Finally the \textit{groups} section defines groups of nodes that install the same software stack. The software stack for each group is defined as a list of recipes. Here, we have four different groups: one for the frontend LIMS (ui), one for the Hadoop and database management services (mgmtnodes), one for the database (datanodes), and one for the storage and processing nodes (workers).
+
+% \begin{lstlisting}[language=yaml,frame=shadowbox,label=karamel-cluster,caption=Karamel Cluster Definition for BiobankCloud,float=t]
+\begin{lstlisting}[frame=shadowbox,label=karamel-cluster,caption=Karamel Cluster Definition for BiobankCloud,float=t]
+name: BiobankCloud
+ec2:
+    type: m3.medium
+    region: eu-west-1
+
+cookbooks:
+  ndb: 
+    github: "hopshadoop/ndb-chef"
+  hops: 
+    github: "hopshadoop/hops-hadoop-chef"
+  hopsworks: 
+    github: "hopshadoop/hopsworks-chef"
+  hiway: 
+    github: "biobankcloud/hiway-chef"
+    
+attrs:
+  hopsworks:
+    user: bbc
+    
+groups: 
+  ui:
+    size: 4
+    recipes: 
+        - hopsworks, hiway::client
+  mgmtnodes:
+    size: 4
+    recipes: 
+        - hops::nn, hops::rm, ndb::mgmd, ndb::mysqld
+  datanodes:
+    size: 2
+    recipes: 
+        - ndb::ndbd
+  workers:
+    size: 100
+    recipes: 
+        - hops::dn, hops::nm, hiway::worker
+\end{lstlisting}\label{yaml}
