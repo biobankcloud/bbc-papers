@@ -19,6 +19,22 @@ Hi-WAY provides a selection of established scheduling policies conducting task p
 \end{inparaenum}
 To enable repeatability of experiments, Hi-WAY generates exhaustive provenance traces during workflow execution, which can be shared and re-executed or archived in a database. One of the major distinctive features of SAASFEE is its strong emphasis on integration of external software. This is true for both Cuneiform, which is able to integrate foreign code and command-line tools, and Hi-WAY, which is capable of running not only Cuneiform workflows, but also workflows designed in the SWfMSs Pegasus~\cite{pegasus_fgcs} and Galaxy~\cite{Goecks10}.
 
+
+%% Example workflow %%%%%%%%
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.8\textwidth]{imgs/variant_call11b.pdf}
+  \caption{Static call graph of variant calling workflow. Box-shaped nodes represent distinct tasks, edges represent data dependencies.}
+  \label{fig:variant_call}
+\end{figure}
+
+We demonstrate the applicability of SAASFEE for large scale biobank use cases by discussing an example worklow for variant calling. In this use case we try to discover differences in the genome of an organism in comparison to a reference genome. Furthermore, the discovered differences are annotated with database information to ease their interpretation by a specialist. Figure \ref{fig:variant_call} shows the static call graph for this workflow which was automatically derived from the workflow script. It enumerates the different data processing steps and gives a coarse overview over task dependencies. Each of these tasks integrates a different command-line tool which is wrapped in Cuneiform and called like a function. The workflow is extensible in the way that each intermediate result can serve as the input to a new subworkflow and tools can be differently parametrized and, if file formats are standardized, exchanged with different tools.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 To verify the scaling behavior of SAASFEE for large-scale use cases relevant for Biobanks, we specified and ran a variant calling pipeline on 10~GB of compressed whole genome sequencing reads from the 1000 Genomes Project. These reads were aligned against a reference genome, variants were called, and the resulting sets of variants were annotated using publicly available databases. Figure~\ref{fig:saasfee_scaling} shows the scalability of this workflow. Within the limits of the setup chosen, linear scaling behavior could be achieved for the variant calling workflow.
 
 \begin{figure}
