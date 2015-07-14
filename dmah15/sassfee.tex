@@ -12,12 +12,12 @@ To process the vast amounts of genomic data stored in today's biobanks, research
 
 \begin{figure}
   \centering
-  \includegraphics[width=.6\textwidth]{imgs/saasfee_stack.pdf}
-  \caption{The software stack of the scientific workflow management system SAASFEE, which comprises the functional workflow language Cuneiform as well as the Hi-WAY workflow scheduler for Hadoop. Cuneiform can execute foreign code written in languages like Python, Bash, and R. Besides Cuneiform, Hi-WAY can also interpret the workflow languages of the SWfMSs Pegasus and Galaxy. SAASFEE can be run both on Hops as well as Apache Hadoop. SAASFEE and Hops can be interfaced and configured via the web interface provided by the LIMS.}
+  \includegraphics[width=.67\textwidth]{imgs/saasfee_stack.pdf}
+  \caption{The software stack of the scientific workflow management system SAASFEE, which comprises the functional workflow language Cuneiform as well as the Hi-WAY workflow scheduler for Hadoop. Cuneiform can execute foreign code written in languages like Python, Bash, and R. Besides Cuneiform, Hi-WAY can also interpret the workflow languages of the SWfMSs Pegasus and Galaxy. SAASFEE can be run both on Hops as well as Apache Hadoop. SAASFEE and HopsYARN can be interfaced and configured via the web interface provided by the LIMS.}
   \label{fig:saasfee_stack}
 \end{figure}
 
-Analysis pipelines for large-scale genomic data employ many different software tools and libraries with diverse Application Programming Interfaces (APIs). At the same time the growing amounts of data to be analyzed necessitate parallel and distributed execution of these analysis pipelines. Thus, the methods for specifying such analysis pipelines need to meet both concerns -- integration and parallelism equally. The functional workflow Language Cuneiform has been designed to meet these requirements~\cite{Brandt2015}. Cuneiform allows the integration of software tools and libraries with APIs in many different programming languages. This way, command-line tools (e.g., Bowtie) can be integrated with similar ease as, for instance, R libraries (e.g., CummeRbund). By partitioning large data sets and processing these partitions in parallel, data parallelism can be exploited in addition to task parallelism to speed up computation. Cuneiform automatically detects and exploits data and task parallelism in a workflow specification. Editing and debugging workflows is supported by the tools and visualization features provided with the Cuneiform interpreter.
+Analysis pipelines for large-scale genomic data employ many different software tools and libraries with diverse Application Programming Interfaces (APIs). At the same time the growing amounts of data to be analyzed necessitate parallel and distributed execution of these analysis pipelines. Thus, the methods for specifying such analysis pipelines need to meet both concerns -- integration and parallelism equally. The functional workflow Language Cuneiform has been designed to meet these requirements~\cite{Brandt2015}. Cuneiform allows the integration of software tools and libraries with APIs in many different programming languages. This way, command-line tools (e.g., Bowtie~\cite{langmead2009ultrafast}) can be integrated with similar ease as, for instance, R libraries (e.g., CummeRbund~\cite{goff2012cummerbund}). By partitioning large data sets and processing these partitions in parallel, data parallelism can be exploited in addition to task parallelism to speed up computation. Cuneiform automatically detects and exploits data and task parallelism in a workflow specification. Editing and debugging workflows is supported by the tools and visualization features provided with the Cuneiform interpreter.
 
 Hi-WAY is a higher-level scheduler that enables the execution of scientific workflows on top of YARN. Hi-WAY executes each of the tasks comprising the workflow in a separate container, which is the basic unit of computation in YARN. Input, output and intermediate files created during workflow execution are stored in Hadoop's distributed file system HDFS. Consequently, Hi-WAY benefits form the fault-tolerance and scalability of the Hadoop ecosystem. It has been evaluated to scale to more than 600 concurrent tasks.
 
@@ -33,7 +33,7 @@ To enable repeatability of experiments, Hi-WAY generates exhaustive provenance t
 
 \begin{figure}
   \centering
-  \includegraphics[width=.8\textwidth]{imgs/variant_call11b.pdf}
+  \includegraphics[width=.85\textwidth]{imgs/variant_call11b.pdf}
   \caption{Static call graph of variant calling workflow. Box-shaped nodes represent distinct tasks, edges represent data dependencies.}
   \label{fig:variant_call}
 \end{figure}
@@ -44,7 +44,7 @@ We demonstrate the applicability of SAASFEE for large-scale biobank use cases by
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-To verify the scaling behavior of SAASFEE for large-scale use cases relevant for biobanks, we ran this variant calling pipeline on 10~GB of compressed whole genome sequencing reads from the 1000 Genomes Project. These reads were aligned against a reference genome, variants were called, and the resulting sets of variants were annotated using publicly available databases. Figure~\ref{fig:saasfee_scaling} shows the scalability of this workflow. Within the limits of the setup chosen, linear scaling behavior could be achieved for the variant calling workflow.
+As a first step to test the scalability of SAASFEE for large-scale use cases which are relevant for biobanks, we ran this variant calling pipeline on 10~GB of compressed whole genome sequencing reads from the 1000 Genomes Project. These reads were aligned against a reference genome, variants were called, and the resulting sets of variants were annotated using publicly available databases. Figure~\ref{fig:saasfee_scaling} shows the scalability of this workflow. Within the limits of the setup chosen, linear scaling behavior could be achieved for the variant calling workflow.
 
 \begin{figure}
   \centering

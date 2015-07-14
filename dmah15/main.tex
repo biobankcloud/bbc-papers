@@ -27,6 +27,9 @@
 \usepackage[dvipsnames]{xcolor}
 \usepackage{listings}
 
+\hyphenation{bio-ban-kers}
+\hyphenation{Bio-bank-Cloud}
+
 \newcommand\YAMLcolonstyle{\color{black}}
 \newcommand\YAMLkeystyle{\color{blue}}
 \newcommand\YAMLvaluestyle{\color{black}}
@@ -104,7 +107,7 @@
 
 \title{BiobankCloud: a Platform for the Secure Storage, Sharing, and Processing of Large Biomedical Data Sets}
 
-\author{Alysson Bessani\inst{5}, Joergen Brandt\inst{2}, Marc Bux\inst{2}, Vinicius Cogo \inst{5}, Jim Dowling \inst{1}, Ali Gholami\inst{1}, Kamal Hakimzadeh\inst{1}, Micheal Hummel\inst{4}, Mahmoud Ismail\inst{1}, Erwin Laure\inst{1}, Ulf Leser\inst{2}, Jan-Eric Litton\inst{3}, Roxanna Martinez\inst{3}, Salman Niazi\inst{1}, Jane Reichel\inst{6}}
+\author{Alysson Bessani\inst{5}, J\"{o}rgen Brandt\inst{2}, Marc Bux\inst{2}, Vinicius Cogo \inst{5}, Jim Dowling \inst{1}, Ali Gholami\inst{1}, Kamal Hakimzadeh\inst{1}, Micheal Hummel\inst{4}, Mahmoud Ismail\inst{1}, Erwin Laure\inst{1}, Ulf Leser\inst{2}, Jan-Eric Litton\inst{3}, Roxanna Martinez\inst{3}, Salman Niazi\inst{1}, Jane Reichel\inst{6}}
 
 \institute{KTH - Royal Institute of Technology,\\
 \email{\{jdowling, gholami, mahh, maism, erwinl, smkniazi\}@kth.se}
@@ -140,35 +143,35 @@ Uppsala University\\
 \maketitle
 
 \begin{abstract}
-Biobanks store and catalog human biological material that is increasingly being digitized using next generation sequencing (NGS). There is, however, a computational bottleneck, as existing software systems are not scalable and secure enough to store and process the incoming wave of genomic data from NGS machines. In the BiobankCloud project, we are building a Hadoop-based platform for the secure storage, sharing, and parallel processing of genomic data. We extended Hadoop to include support for multi-tenant studies, reduced storage requirements with erasure coding, and added support for extensible and consistent metadata. On top of Hadoop, we built a scalable scientific workflow engine featuring a proper workflow definition language focussing and simple integration and chaining of existing tools, adaptive scheduling on Apache Yarn, and support for iterative dataflows. Our platform also supports the secure sharing of data across different, distributed Hadoop clusters. The entire system is easily installed and comes with a provide user-friendly web interface for running, managing, and accessing data sets behind a secure 2-factor authentication. Initial tests have shown that the engine scales well to dozens of nodes. The entire system is open-source and includes pre-defined workflows for popular tasks in biomedical data analysis, such as variant identification, differential transcriptome analysis using RNA-Seq, and analysis of miRNA-Seq, and ChIP-Seq data.
+Biobanks store and catalog human biological material that is increasingly being digitized using next-generation sequencing (NGS). There is, however, a computational bottleneck, as existing software systems are not scalable and secure enough to store and process the incoming wave of genomic data from NGS machines. In the BiobankCloud project, we are building a Hadoop-based platform for the secure storage, sharing, and parallel processing of genomic data. We extended Hadoop to include support for multi-tenant studies, reduced storage requirements with erasure coding, and added support for extensible and consistent metadata. On top of Hadoop, we built a scalable scientific workflow engine featuring a proper workflow definition language focusing and simple integration and chaining of existing tools, adaptive scheduling on Apache Yarn, and support for iterative dataflows. Our platform also supports the secure sharing of data across different, distributed Hadoop clusters. The software is easily installed and comes with a provide user-friendly web interface for running, managing, and accessing data sets behind a secure 2-factor authentication. Initial tests have shown that the engine scales well to dozens of nodes. The entire system is open-source and includes pre-defined workflows for popular tasks in biomedical data analysis, such as variant identification, differential transcriptome analysis using RNA-Seq, and analysis of miRNA-Seq, and ChIP-Seq data.
 \end{abstract}
 
-\vskip-5pt
+%\vskip-5pt
 \input{introduction}
-\vskip-5pt
+%\vskip-5pt
 \input{relatedWork}
 % \input{regulation}
-\vskip-5pt
+%\vskip-5pt
 \input{lims}
-\vskip-5pt
+%\vskip-5pt
 \input{security}
-\vskip-5pt
+%\vskip-5pt
 \input{hops}
-\vskip-5pt
+%\vskip-5pt
 \input{sassfee}
-\vskip-5pt
+%\vskip-5pt
 \input{workflows}
-\vskip-5pt
+%\vskip-5pt
 \input{charonfs}
 % \vskip-5pt
 \input{karamel}
 
 \section{Conclusions}
-In this paper, we introduced the BiobankCloud platform, a platform that provides a number of features necessary for Biobanks to adopt Hadoop-based solutions for managing NGS data. Critical security features that we have introduced for managing sensitive data include multi-tenancy to isolate Studies and 2-factor authentication. Next-generation data management systems for NGS data must be massively scalable. We introduced our scalable storage service, HopsFS, our processing framework, HopsYARN, and our framework for scalable bioinformatics workflows, SAASFEE. We also provide metadata design and search services, while ensuring the integrity of metadata. Finally, in Charon, we showed how we can leverage public clouds to share data securely between clusters. BiobankCloud's secure and scalable open platform software is helping to remove the Biobank Bottleneck and enable population-level genomics.
+In this paper, we introduced the BiobankCloud platform, a platform that provides a number of features necessary for biobanks to adopt Hadoop-based solutions for managing NGS data. Critical security features that we have introduced for managing sensitive data include multi-tenancy to isolate Studies and 2-factor authentication. Next-generation data management systems for NGS data must be massively scalable. We introduced our scalable storage service, HopsFS, our processing framework, HopsYARN, and our framework for scalable bioinformatics workflows, SAASFEE. We also provide metadata design and search services, while ensuring the integrity of metadata. Finally, in Charon, we showed how we can leverage public clouds to share data securely between clusters. BiobankCloud's secure and scalable open platform software is helping to remove the biobank bottleneck and enable population-level genomics.
 % \vskip-5pt
 \section{Acknowledgements}
 This work is funded by the EU FP7 project ``Scalable, Secure Storage and Analysis of Biobank Data'' under Grant Agreement no. 317871. 
-\vskip-5pt
+%\vskip-5pt
 \bibliographystyle{ieeetr}
 \bibliography{bbc-dmah15}
 

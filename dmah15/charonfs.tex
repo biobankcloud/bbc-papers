@@ -1,4 +1,5 @@
 \section{Sharing Data Between Clusters with \textsc{Charon}}
+\label{charon}
 
 An innovative aspect of the BiobankCloud PaaS is the capability to interconnect several PaaS deployments in a self-managed federation~\cite{ebb13}, which enables data sharing between biobanks and other BiobankCloud users.
 These federations can also include public storage clouds, allowing biobanks to extrapolate the capacity of their private resources to the virtually infinite capacity of clouds without endangering the individuals' privacy.
@@ -20,7 +21,7 @@ Figure~\ref{fig:charon} illustrates a deployment scenario where two biobanks sto
 In this scenario, the namespace tree has six nodes: directories \texttt{d1} and \texttt{d2}, and files \texttt{A}, \texttt{B}, \texttt{C}, and \texttt{D}.
 The namespace is maintained in the cloud-of-clouds, together with file \texttt{B}.
 File \texttt{D}, less critical, is kept in a single public cloud.
-File \texttt{A} is stored locally because it cannot leave Biobank 2 (e.g., due to legal constraints).
+File \texttt{A} is stored locally because it cannot leave biobank 2 (e.g., due to legal constraints).
 File \texttt{C} is shared between the two sites (e.g., in the same legal framework), thus being stored in both of them.
 
 %\vskip-8pt

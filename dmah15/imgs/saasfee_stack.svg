@@ -10,7 +10,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="590"
+   width="620"
    height="270"
    id="svg2"
    version="1.1"
@@ -124,9 +124,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="370.18579"
-     inkscape:cy="10.796796"
+     inkscape:zoom="0.7"
+     inkscape:cx="-159.01005"
+     inkscape:cy="72.092591"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -166,9 +166,17 @@
      id="layer1"
      transform="translate(-579.33331,-78.028851)">
     <rect
+       style="fill:#0b77db;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="rect3804"
+       width="410"
+       height="110"
+       x="50"
+       y="110"
+       transform="translate(579.33331,78.028851)" />
+    <rect
        style="fill:#448907;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect3895"
-       width="230"
+       width="280"
        height="40"
        x="629.33331"
        y="308.02884" />
@@ -179,13 +187,6 @@
        width="40.000015"
        id="rect3897"
        style="fill:#ff431b;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <path
-       style="fill:#0b77db;fill-opacity:1;stroke:none"
-       d="m 810,151.33334 0,110 540,0 0,-209.999996 c -36.6667,36.666669 -63.3333,63.333326 -100,99.999996 z"
-       id="path3893"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc"
-       transform="translate(-180.66667,36.695507)" />
     <rect
        y="248.02885"
        x="639.33331"
@@ -240,14 +241,14 @@
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
-       x="702.12628"
+       x="682.90753"
        y="337.16946"
        id="text3939"
        sodipodi:linespacing="121%"><tspan
          sodipodi:role="line"
          id="tspan3941"
-         x="702.12628"
-         y="337.16946">Hops</tspan></text>
+         x="682.90753"
+         y="337.16946">HopsYARN</tspan></text>
     <text
        sodipodi:linespacing="121%"
        id="text4397"
@@ -329,7 +330,7 @@
          sodipodi:role="line">...</tspan></text>
     <path
        style="fill:#bebebe;fill-opacity:1;stroke:none"
-       d="m 939.33333,238.02885 40,0 0,-40 119.99997,-119.999998 -60,0 -99.99997,99.999998 z"
+       d="m 919.33331,238.02885 40,0 0,-40 119.99999,-119.999998 -60,0 -99.99999,99.999998 z"
        id="path3879"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
@@ -337,64 +338,69 @@
        sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
        id="path3881"
-       d="m 989.33333,238.02885 39.99997,0 0,-20 140,-139.999998 -60,0 -119.99997,119.999998 z"
+       d="m 969.33331,238.02885 39.99999,0 0,-20 140,-139.999998 -60,0 -119.99999,119.999998 z"
        style="fill:#bebebe;fill-opacity:1;stroke:none" />
     <text
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
        sodipodi:linespacing="121%"
        id="text3889"
-       y="946.74738"
-       x="548.54761"
+       y="255.66557"
+       x="1060.7618"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
        xml:space="preserve"><tspan
          style="font-size:40px;font-weight:normal;fill:#000000;fill-opacity:1;-inkscape-font-specification:Calibri"
-         y="946.74738"
-         x="548.54761"
+         y="255.66557"
+         x="1060.7618"
          id="tspan3891"
          sodipodi:role="line">SAASFEE</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
-       x="550.51691"
-       y="819.83948"
+       x="536.37476"
+       y="805.69733"
        id="text3929"
        sodipodi:linespacing="121%"
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3931"
-         x="550.51691"
-         y="819.83948"
+         x="536.37476"
+         y="805.69733"
          style="font-size:40px;font-weight:normal;fill:#7f7f7f;fill-opacity:1;-inkscape-font-specification:Calibri">Pegasus</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Sans Bold"
-       x="597.39008"
-       y="870.10205"
+       x="583.24792"
+       y="855.9599"
        id="text3933"
        sodipodi:linespacing="121%"
        transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"><tspan
          sodipodi:role="line"
          id="tspan3935"
-         x="597.39008"
-         y="870.10205"
+         x="583.24792"
+         y="855.9599"
          style="font-size:40px;font-weight:normal;fill:#7f7f7f;fill-opacity:1;-inkscape-font-specification:Calibri">Galaxy</tspan></text>
     <rect
        y="308.02884"
-       x="889.33331"
+       x="919.33331"
        height="40"
-       width="280.00003"
+       width="280"
        id="rect3033"
        style="fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <text
        sodipodi:linespacing="121%"
        id="text3035"
-       y="338.07767"
-       x="900.66144"
+       y="338.0386"
+       x="945.56378"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:121.00000381%;letter-spacing:0px;word-spacing:0px;fill:#7f7f7f;fill-opacity:1;stroke:none;font-family:Calibri;-inkscape-font-specification:Calibri"
        xml:space="preserve"><tspan
-         y="338.07767"
-         x="900.66144"
+         y="338.0386"
+         x="945.56378"
          id="tspan3037"
-         sodipodi:role="line">Apache Hadoop</tspan></text>
+         sodipodi:role="line">Hadoop YARN</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 1044.3333,188.02885 0,0 c 10,0 10,0 10,10 l 0,40 5,5 -5,5 0,40 c 0,10 0,10 -10,10"
+       id="path3806"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
   </g>
 </svg>
